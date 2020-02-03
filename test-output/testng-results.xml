@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Clicked on Image Link]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="16766" started-at="2020-02-03T06:44:44 IST" finished-at="2020-02-03T06:45:00 IST">
+    <groups>
+      <group name="regression">
+        <method signature="LinksTesting1.linktesting1()[pri:0, instance:com.testng.LinksTesting1@1e6d1014]" name="linktesting1" class="com.testng.LinksTesting1"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="LinksTesting1.linktesting1()[pri:0, instance:com.testng.LinksTesting1@1e6d1014]" name="linktesting1" class="com.testng.LinksTesting1"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Test" duration-ms="16766" started-at="2020-02-03T06:44:44 IST" finished-at="2020-02-03T06:45:00 IST">
+      <class name="com.testng.LinksTesting1">
+        <test-method status="PASS" signature="startProcess()[pri:0, instance:com.testng.LinksTesting1@1e6d1014]" name="startProcess" is-config="true" duration-ms="1307" started-at="2020-02-03T06:44:44 IST" finished-at="2020-02-03T06:44:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startProcess -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.testng.LinksTesting1@1e6d1014]" name="setup" is-config="true" duration-ms="12736" started-at="2020-02-03T06:44:45 IST" finished-at="2020-02-03T06:44:58 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="linktesting1()[pri:0, instance:com.testng.LinksTesting1@1e6d1014]" name="linktesting1" duration-ms="1438" started-at="2020-02-03T06:44:58 IST" finished-at="2020-02-03T06:44:59 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicked on Image Link]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- linktesting1 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testng.LinksTesting1@1e6d1014]" name="tearDown" is-config="true" duration-ms="1216" started-at="2020-02-03T06:44:59 IST" finished-at="2020-02-03T06:45:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testng.LinksTesting1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
